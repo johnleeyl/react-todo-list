@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    font-size: 3em;
+    max-width: 400px;
+    margin: 60px auto 0 auto;
+}
+
+.searchfield{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 5px;
+}
+
+.add-button{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.task-options{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgb(239, 234, 234);
+}
+
+.task-options .task{
+    margin: auto;
+}
+
+.searchfield{
+    width: 200px;
+    height: 20px;
+}
+
+.task-options p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.task-options .task-buttons{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#delete-button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.task-buttons{
+     cursor: pointer;
+}
